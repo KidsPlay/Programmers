@@ -1,5 +1,5 @@
-import java.util.*
-import kotlin.test.assertEquals
+package level1
+
 import kotlin.test.assertTrue
 
 fun main(args: Array<String>) {
