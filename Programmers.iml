@@ -10,5 +10,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="junit:junit:4.13.1" level="project" />
+    <orderEntry type="library" name="org.hamcrest:hamcrest:2.2" level="project" />
+    <orderEntry type="library" name="org.hamcrest:hamcrest-library:2.2" level="project" />
   </component>
 </module>
