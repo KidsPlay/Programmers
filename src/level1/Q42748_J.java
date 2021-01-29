@@ -3,7 +3,6 @@ package level1;
 import org.junit.Assert;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Q42748_J {
     public static void main(String[] args) {
