@@ -1,9 +1,7 @@
-package level1;
+package level2;
 
-import org.hamcrest.Matcher;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
-import org.junit.Assert;
 
 import java.util.Arrays;
 import java.util.Comparator;
