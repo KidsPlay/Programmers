@@ -1,4 +1,4 @@
-package level1;
+package level2;
 
 import org.junit.Assert;
 
