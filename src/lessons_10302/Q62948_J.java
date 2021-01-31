@@ -1,4 +1,4 @@
-package level2;
+package lessons_10302;
 
 import org.junit.Assert;
 
