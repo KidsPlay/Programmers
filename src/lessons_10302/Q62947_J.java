@@ -16,16 +16,43 @@ public class Q62947_J {
         Arrays.sort(A);
         Arrays.sort(B);
 
-        int aIndex = 0;
         int answer = 0;
+        int aIndex = 0;
 
         for (int b : B) {
             if (A[aIndex] < b) {
+                aIndex++;
                 answer++;
+            } else if (A[aIndex] == b) {
                 aIndex++;
             }
         }
 
         return answer;
     }
+
+
+
+
+
+
+
+
+
+
+
+//    Arrays.sort(A);
+//        Arrays.sort(B);
+//
+//    int aIndex = 0;
+//    int answer = 0;
+//
+//        for (int b : B) {
+//        if (A[aIndex] < b) {
+//            answer++;
+//            aIndex++;
+//        }
+//    }
+//
+//        return answer;
 }

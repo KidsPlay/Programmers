@@ -2,6 +2,9 @@ package lessons_10302;
 
 import org.junit.Assert;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.function.IntUnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
