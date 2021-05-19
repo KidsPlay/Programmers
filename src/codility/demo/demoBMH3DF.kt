@@ -1,4 +1,4 @@
-package codility
+package codility.demo
 
 import java.util.Arrays
 import kotlin.test.assertEquals
