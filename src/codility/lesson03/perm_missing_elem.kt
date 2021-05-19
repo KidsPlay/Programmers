@@ -3,7 +3,7 @@ package codility.lesson03
 import java.util.*
 import kotlin.test.assertEquals
 
-fun solution(A: IntArray): Int {
+private fun solution(A: IntArray): Int {
     return solutionArray(A)
 }
 
