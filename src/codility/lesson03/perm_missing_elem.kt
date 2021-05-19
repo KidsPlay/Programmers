@@ -4,6 +4,26 @@ import java.util.*
 import kotlin.test.assertEquals
 
 fun solution(A: IntArray): Int {
+    return solutionArray(A)
+}
+
+private fun solutionArray(A: IntArray): Int {
+    val arr = IntArray(100002)
+
+    for (n in A) {
+        arr[n]++
+    }
+
+    for (n in 1..A.size + 1) {
+        if (arr[n] == 0) {
+            return n
+        }
+    }
+
+    return -1
+}
+
+private fun solutionSort(A: IntArray): Int {
     Arrays.sort(A)
 
     var checkNum = 1
