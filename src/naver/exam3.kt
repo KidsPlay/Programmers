@@ -3,13 +3,6 @@ package naver
 import kotlin.test.assertEquals
 
 fun main() {
-    Integer.toBinaryString(100)
-    var sum = 0
-    for (i in 1..100000) {
-
-    }
-    println(sum)
-
     assertEquals(4, solution(intArrayOf(2, -2, 3, 0, 4, -7)))
     assertEquals(-1, solution(IntArray(100000) { 0 }))
 }
