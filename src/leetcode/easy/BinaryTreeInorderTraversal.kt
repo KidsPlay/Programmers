@@ -21,7 +21,7 @@ private fun inorderTraversal(root: TreeNode?): List<Int> {
     return list
 }
 
-fun inorder(node: TreeNode?, list: MutableList<Int>) {
+private fun inorder(node: TreeNode?, list: MutableList<Int>) {
     if (node != null) {
         inorder(node.left, list)
         list.add(node.`val`)
