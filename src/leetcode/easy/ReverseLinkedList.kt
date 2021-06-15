@@ -34,14 +34,28 @@ private fun reverseList(head: ListNode?): ListNode? {
     return pre
 }
 
-class ListNode(var value: Int) {
+class ListNode(var `val`: Int) {
     var next: ListNode? = null
+
+    companion object {
+        fun make(array: IntArray): ListNode {
+            val head = ListNode(array[0])
+            var curr = head
+            for (i in 1 until array.size) {
+                val tempNode = ListNode(array[i])
+                curr.next = tempNode
+                curr = tempNode
+            }
+
+            return head
+        }
+    }
 
     override fun toString(): String {
         val sb = StringBuilder()
         var curr: ListNode? = this
         while (curr != null) {
-            sb.append(curr.value)
+            sb.append(curr.`val`)
             curr = curr.next
         }
 

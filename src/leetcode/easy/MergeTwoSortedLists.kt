@@ -24,7 +24,7 @@ private fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
     var j = l2
 
     while (i != null && j != null) {
-        if (i.value < j.value) {
+        if (i.`val` < j.`val`) {
             curr.next = i
             curr = i
             i = i.next
