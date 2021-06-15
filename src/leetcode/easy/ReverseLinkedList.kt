@@ -1,7 +1,6 @@
 package leetcode.easy
 
 import java.lang.StringBuilder
-import java.util.*
 import kotlin.test.assertEquals
 
 fun main() {
@@ -35,17 +34,21 @@ private fun reverseList(head: ListNode?): ListNode? {
     return pre
 }
 
-class ListNode(var `val`: Int) {
+class ListNode(var value: Int) {
     var next: ListNode? = null
 
     override fun toString(): String {
         val sb = StringBuilder()
         var curr: ListNode? = this
         while (curr != null) {
-            sb.append(curr.`val`)
+            sb.append(curr.value)
             curr = curr.next
         }
 
         return sb.toString()
+    }
+
+    override fun equals(other: Any?): Boolean {
+        return toString().toCharArray().contentEquals(other.toString().toCharArray())
     }
 }
